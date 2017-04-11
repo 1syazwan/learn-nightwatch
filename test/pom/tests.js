@@ -11,7 +11,7 @@ module.exports = {
     utils(browser).joinNow();
     utils(browser).newTestUser();
     utils(browser).mainLogo();
-    browser.pause(5000);
+    browser.pause(50000);
     utils(browser).logout();
     browser.end();
   }
